@@ -1,9 +1,10 @@
-import { SafeAreaView, View, Text} from "react-native";
+import { SafeAreaView, View, Text, KeyboardAvoidingView} from "react-native";
+import {s} from "../../styles/Home";
 
 export function Home(){
     return(
-        <SafeAreaView>
-            <Text>Bienvenido al Home</Text>
-        </SafeAreaView>
+        <KeyboardAvoidingView behavior="smooth" style={s.containerHome}>
+            
+        </KeyboardAvoidingView>
     );
 }

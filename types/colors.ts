@@ -3,4 +3,5 @@ export type Colores = {
     secondaryColor:string
     componentsColor:string
     black:string
+    white:string
 }
